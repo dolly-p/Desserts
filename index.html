@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  
+  <title>Frontend Mentor | Product list with cart</title>
+</head>
+<body>
+
+  <section class="dessert-page">
+    <h1>Desserts</h1>
+    <div>
+      <div class="dessert-card">
+        <img src="images/image-waffle-mobile.jpg" alt="image of a waffle " class="product-image">
+        <div class="add-to-cart">
+          <img src="images/icon-add-to-cart.svg" alt="">
+          <p>Add to cart</p>
+        </div>
+        <div class="selected-item-quantity quantity ">
+          <img src="images/icon-decrement-quantity.svg" alt="" class="decrementor">
+          <p id="amount"></p>
+          <img src="images/icon-increment-quantity.svg" alt="" class="incrementor">
+        </div>
+        <p class="short-name">Waffle</p>
+        <h2 class="full-name">Waffle with Berries</h2>
+        <h2 class="price">$6.50</h2>
+      </div>
+      <div class="dessert-card">
+        <img src="images/image-creme-brulee-mobile.jpg" alt="image of Creme Brulee" class="product-image">
+        <div class="add-to-cart">
+          <img src="images/icon-add-to-cart.svg" alt="">
+          <p>Add to cart</p>
+        </div>
+        <div class="selected-item-quantity quantity ">
+          <img src="images/icon-decrement-quantity.svg" alt="" class="decrementor">
+          <p id="amount">1</p>
+          <img src="images/icon-increment-quantity.svg" alt="" class="incrementor">
+        </div>
+        <p class="short-name">Crème Brulee</p>
+        <h2 class="full-name">Vanilla Bean Crème Brulee</h2>
+        <h2 class="price">$7.00</h2>
+      </div>
+      <div class="dessert-card">
+        <img src="images/image-macaron-mobile.jpg" alt="image of a Macaron" class="product-image">
+        <div class="add-to-cart">
+          <img src="images/icon-add-to-cart.svg" alt="">
+          <p>Add to cart</p>
+        </div>
+        <div class="selected-item-quantity quantity ">
+          <img src="images/icon-decrement-quantity.svg" alt="" class="decrementor">
+          <p id="amount">1</p>
+          <img src="images/icon-increment-quantity.svg" alt="" class="incrementor">
+        </div>
+        <p class="short-name">Macaron</p>
+        <h2 class="full-name">Macaron Mix of Five</h2>
+        <h2 class="price">$8.00</h2>
+      </div>
+      <div class="dessert-card">
+        <img src="images/image-tiramisu-mobile.jpg" alt="image of a Tiramisu" class="product-image">
+        <div class="add-to-cart">
+          <img src="images/icon-add-to-cart.svg" alt="">
+          <p>Add to cart</p>
+        </div>
+        <div class="selected-item-quantity quantity ">
+          <img src="images/icon-decrement-quantity.svg" alt="" class="decrementor">
+          <p id="amount">1</p>
+          <img src="images/icon-increment-quantity.svg" alt="" class="incrementor">
+        </div>
+        <p class="short-name">Tiramisu</p>
+        <h2 class="full-name">Classic Tiramisu</h2>
+        <h2 class="price">$5.50</h2>
+      </div>
+      <div class="dessert-card">
+        <img src="images/image-baklava-mobile.jpg" alt="image of a baklava" class="product-image">
+        <div class="add-to-cart">
+          <img src="images/icon-add-to-cart.svg" alt="">
+          <p>Add to cart</p>
+        </div>
+        <div class="selected-item-quantity quantity ">
+          <img src="images/icon-decrement-quantity.svg" alt="" class="decrementor">
+          <p id="amount">1</p>
+          <img src="images/icon-increment-quantity.svg" alt="" class="incrementor">
+        </div>
+        <p class="short-name">Baklava</p>
+        <h2 class="full-name">Pistachio Baklava</h2>
+        <h2 class="price">$4.00</h2>
+      </div>
+      <div class="dessert-card">
+        <img src="images/image-meringue-mobile.jpg" alt="image of a lemon meringue pie" class="product-image">
+        <div class="add-to-cart">
+          <img src="images/icon-add-to-cart.svg" alt="">
+          <p>Add to cart</p>
+        </div>
+        <div class="selected-item-quantity quantity ">
+          <img src="images/icon-decrement-quantity.svg" alt="" class="decrementor">
+          <p id="amount">1</p>
+          <img src="images/icon-increment-quantity.svg" alt="" class="incrementor">
+        </div>
+        <p class="short-name">Pie</p>
+        <h2 class="full-name">Lemon Meringue Pie</h2>
+        <h2 class="price">$5.00</h2>
+      </div>
+      <div class="dessert-card">
+        <img src="images/image-cake-mobile.jpg" alt="image of a cake" class="product-image">
+        <div class="add-to-cart">
+          <img src="images/icon-add-to-cart.svg" alt="">
+          <p>Add to cart</p>
+        </div>
+        <div class="selected-item-quantity quantity ">
+          <img src="images/icon-decrement-quantity.svg" alt="" class="decrementor">
+          <p id="amount">1</p>
+          <img src="images/icon-increment-quantity.svg" alt="" class="incrementor">
+        </div>
+        <p class="short-name">Cake</p>
+        <h2 class="full-name">Red Velvet Cake</h2>
+        <h2 class="price">$4.50</h2>
+      </div>
+      <div class="dessert-card">
+        <img src="images/image-brownie-mobile.jpg" alt="image of a brownie" class="product-image">
+        <div class="add-to-cart">
+          <img src="images/icon-add-to-cart.svg" alt="">
+          <p>Add to cart</p>
+        </div>
+        <div class="selected-item-quantity quantity ">
+          <img src="images/icon-decrement-quantity.svg" alt="" class="decrementor">
+          <p id="amount">1</p>
+          <img src="images/icon-increment-quantity.svg" alt="" class="incrementor">
+        </div>
+        <p class="short-name">Brownie</p>
+        <h2 class="full-name">Salted Caramel Brownie</h2>
+        <h2 class="price">$5.50</h2>
+      </div>
+      <div class="dessert-card">
+        <img src="images/image-panna-cotta-mobile.jpg" alt="image of a panna cotta" class="product-image">
+        <div class="add-to-cart">
+          <img src="images/icon-add-to-cart.svg" alt="">
+          <p>Add to cart</p>
+        </div>
+        <div class="selected-item-quantity quantity ">
+          <img src="images/icon-decrement-quantity.svg" alt="" class="decrementor">
+          <p id="amount">1</p>
+          <img src="images/icon-increment-quantity.svg" alt="" class="incrementor">
+        </div>
+        <p class="short-name">Panna Cotta</p>
+        <h2 class="full-name">Vanilla Panna Cotta</h2>
+        <h2 class="price">$6.50</h2>
+      </div>
+      <div class="cart">
+        <div>
+          <h2>Your Cart (<span id="cart-content">0</span>)</h2>
+        </div>
+        <div class="empty-cart">
+          <img src="images/illustration-empty-cart.svg" alt="empty cart pic" class="product-image">
+          <p>Your added items will appear here</p>
+        </div>
+        <div class=" active order-summary">
+          <div class="order-summary-container">
+              <div>
+                <h3 id="product-name"></h3>
+                <p><span id="product-quantity"></span>x</p>
+                <span id="product-price"></span>
+                <p>$<span id="product-amount"></span></p>
+            </div>
+            <div>
+              <img src="images/icon-remove-item.svg" alt="">
+            </div>
+          </div>
+          
+          <hr>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
+    Coded by <a href="#">Dolapo</a>.
+  </div>
+
+
+
+  <script src="app.js"></script>
+</body>
+</html>

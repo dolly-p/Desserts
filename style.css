@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Red Hat Text", sans-serif;
+}
+body{
+    background-color: hsl(13, 31%, 94%);
+}
+.dessert-page{
+    width: 98%;
+    margin: 0 auto;
+    padding: 1rem;
+}
+.dessert-page h1{
+    font-size: 2rem;
+    color: hsl(14, 65%, 9%);
+    margin-bottom: 1.5rem;
+}
+.dessert-page .product-image{
+    width: 100%;
+    border-radius: 10px;
+}
+.selected{
+    border: 2px solid hsl(14, 86%, 42%);
+}
+.selected-item-quantity{
+    background-color: hsl(14, 86%, 42%);
+    display: flex;
+    justify-content: space-between;
+    width: 45%;
+    padding: .7rem 1.2rem;
+    border-radius: 50px;
+    position: relative;
+    bottom: 25px;
+    left: 25%;
+    color: whitesmoke;
+}
+.quantity{
+    display: none;
+}
+.selected-item-quantity img{
+    border: 1px solid white;
+    border-radius: 60%;
+    width: 20px;
+    padding: .3rem;
+    cursor: pointer;
+}
+.dessert-card{
+    margin-bottom: 1.5rem;
+    position: relative;
+}
+.dessert-card .add-to-cart{
+    display: flex;
+    gap: .5rem;
+    font-size: 15px;
+    border: 1px solid grey;
+    border-radius: 50px;
+    width: 45%;
+    padding: .5rem 1.2rem;
+    background-color: white;
+    font-weight: 500;
+    position: relative;
+    bottom: 25px;
+    left: 25%;
+    cursor: pointer;
+}
+.short-name{
+    color:  hsl(12, 20%, 44%);
+    font-size: .8rem;
+    margin-bottom: .2rem;
+    margin-top: -.5rem;
+}
+.active{
+    margin-top: -3rem;
+}
+.full-name{
+    font-size: 1rem;
+    color: hsl(14, 65%, 9%);
+    font-weight: 600;
+    margin-bottom: .2rem;
+}
+.price{
+    color: hsl(14, 86%, 42%);
+    font-size: 1rem;
+    font-weight: 500;
+}
+.cart{
+    width: 98%;
+    margin-top: 1rem;
+    padding: 1rem 1rem 3rem 2rem;
+    background-color: white;
+}
+.cart .product-image{
+    width: 45%;
+    display: block;
+    margin: auto;
+}
+.cart h2{
+    color: hsl(14, 86%, 42%);
+    margin-bottom: 2rem;
+}
+.cart p{
+    color:  hsl(7, 20%, 60%);
+    font-weight: 600;
+    font-size: .8rem;
+    text-align: center;
+}
+.active{
+    display: none;
+}
+.order-summary h3{
+    margin-bottom: .5rem;
+}
+.order-summary p{
+    display: inline;
+    color: hsl(14, 86%, 42%);
+    font-weight: 900;
+    font-size: 1.2rem;
+    padding-right: .8rem;
+}
+.order-summary .product-price{
+    padding-right: 1rem;
+}
+.order-summary .product-amount{
+    font-weight: bold;
+}
+.order-summary-container{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+.order-summary-container img{
+    width: 20px;
+    border: 1px solid hsl(12, 20%, 44%);
+    padding: .1rem;
+    border-radius: 50%;
+    margin-top: 30px;
+}
+.attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
